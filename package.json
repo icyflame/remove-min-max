@@ -1,6 +1,6 @@
 {
   "name": "remove-min-max",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Remove the minimum and the maximum from an array of numbers",
   "license": "MIT",
   "repository": "icyflame/remove-min-max",
