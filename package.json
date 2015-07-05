@@ -1,0 +1,37 @@
+{
+  "name": "remove-min-max",
+  "version": "0.0.0",
+  "description": "Remove the minimum and the maximum from an array of numbers",
+  "license": "MIT",
+  "repository": "icyflame/remove-min-max",
+  "author": {
+    "name": "Siddharth Kannan",
+    "email": "kannan.siddharth12@gmail.com",
+    "url": "icyflame.github.io"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "semistandard && mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "math",
+    "arrays",
+    "remove",
+    "minimum",
+    "maximum",
+    "values",
+    "numbers"
+  ],
+  "dependencies": {
+    "math-sort": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "semistandard": "6.1.1"
+  }
+}
