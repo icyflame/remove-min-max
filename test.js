@@ -6,7 +6,7 @@ var removeMinMax = require('./');
 it('returns undefined on non-array values', function () {
   var actual = removeMinMax('string');
 
-  assert.equal(actual); // mocha complains about initializing expected to undefined
+  assert.equal(actual, undefined);
 });
 
 it('returns empty array when length of array is sufficient', function () {
