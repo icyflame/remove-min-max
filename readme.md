@@ -36,6 +36,9 @@ Array of numbers from which to remove minimum and maximum
 
 **This module will return an array _sorted in ascending order_**
 
+**Note:** v1.0.0 of this module used to mutate the supplied argument. v2.0.0
+onwards, that doesn't happen. i.e. the supplied argument is NOT mutated
+
 
 ## License
 
