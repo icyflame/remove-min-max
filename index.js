@@ -2,7 +2,7 @@
 module.exports = function (inputArr) {
   var mathSort = require('math-sort');
   if (Array.isArray(inputArr)) {
-    var newArr = mathSort(inputArr);
+    var newArr = mathSort(inputArr.slice());
     newArr.pop();
     newArr.reverse();
     newArr.pop();
